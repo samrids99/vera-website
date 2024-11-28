@@ -26,6 +26,19 @@
     width: 24px;
 }
 
+.details .vertical-decoration {
+    top: 0;
+    width: 24px;
+    left: 0;
+}
+
+.details .vertical-decoration-right {
+    top: 5%;
+    width: 24px;
+    right: 0;
+    opacity: 1;
+}
+
 .hr-heading {
     display: inline-block;
     width: 3.5rem;
@@ -47,5 +60,9 @@
     rgba(0, 0, 0, 0.8)),
     url('../images/header-background.jpg')
     center center no-repeat;
+    }
+    
+    .details2 {
+        margin-top: 4rem;
     }
 }
